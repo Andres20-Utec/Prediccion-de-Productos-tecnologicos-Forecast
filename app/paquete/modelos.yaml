@@ -1,0 +1,11 @@
+xgboost:
+  random_state: 42
+  'verbose': -1
+
+lightgbm:
+  random_state: 42
+  'verbose': -1
+
+catboost:
+  random_state: 42
+  'verbose': 0

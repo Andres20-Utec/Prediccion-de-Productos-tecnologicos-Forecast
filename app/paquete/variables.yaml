@@ -1,0 +1,39 @@
+grupo_cols:
+  CF: ["cadena", "familia"]
+  CS: ["cadena", "subfamilia"]
+  CFS: ["cadena", "familia", "subfamilia"]
+  PFS: ["nombre_pdv", "familia", "subfamilia"]
+  F: ["familia"]
+  S: ["subfamilia"]
+  CM: ["cadena", "modelo"]
+
+grupo_trials:
+  F: 1
+
+columnas_operacion:
+  cant_ventas: "sum"
+
+columnas_exogenas_operacion:
+  prom_dolar : "mean"
+  nombre_campana: "last"
+
+variables_exogenas:
+  variables: ["prom_dolar", "nombre_campana"]
+
+cadenas_sin_servicio:
+  cadenas: ["ELEKTRA", "PARIS", "CREDIVARGAS", "ESTILOS", 'GMG', "CARSA"]
+
+config_variables:
+  fecha_inicio : '2021-01-01'
+  seed: 42
+  variable_objetivo: "cant_ventas"
+  semanas_a_predecir: 8
+
+
+#  CFS: 20
+#  PFS: 20
+#  CF: 2
+#  CS: 2
+#  CM: 2
+#  F: 2
+#  S: 2

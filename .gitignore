@@ -1,0 +1,114 @@
+# Python specific #
+###################
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.so
+*.pyd
+*.dll
+
+# Virtual environments #
+########################
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI specific #
+####################
+# Config and secrets #
+.env
+*.ini
+*.cfg
+
+# Logs #
+logs/
+*.log
+
+# Pytest cache #
+###############
+.pytest_cache/
+.tox/
+
+# Coverage reports #
+####################
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.hypothesis/
+
+# Mypy #
+########
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Editor and IDE specific #
+###########################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker specific #
+###################
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+
+# Celery #
+##########
+celerybeat-schedule
+celerybeat.pid
+
+# Redis #
+#########
+dump.rdb
+
+# Database #
+############
+*.sqlite3
+*.db
+db.sqlite3
+
+volumes/
+volumes/milvus/rdb_data/CURRENT
+volumes/milvus/rdb_data/IDENTITY
+volumes/milvus/rdb_data/LOCK
+volumes/milvus/rdb_data/LOG
+volumes/milvus/rdb_data/MANIFEST-000003
+volumes/milvus/rdb_data/OPTIONS-000006
+volumes/milvus/rdb_data_meta_kv/CURRENT
+volumes/milvus/rdb_data_meta_kv/IDENTITY
+volumes/milvus/rdb_data_meta_kv/LOCK
+volumes/milvus/rdb_data_meta_kv/LOG
+volumes/milvus/rdb_data_meta_kv/MANIFEST-000003
+volumes/milvus/rdb_data_meta_kv/OPTIONS-000006
+volumes/minio/.minio.sys/backend-encrypted
+volumes/minio/.minio.sys/format.json
+volumes/minio/.minio.sys/buckets/.bloomcycle.bin
+volumes/minio/.minio.sys/buckets/.tracker.bin
+volumes/minio/.minio.sys/buckets/.usage-cache.bin
+volumes/minio/.minio.sys/buckets/.usage.json
+volumes/minio/.minio.sys/buckets/.minio.sys/buckets/.bloomcycle.bin/fs.json
+volumes/minio/.minio.sys/buckets/.minio.sys/buckets/.usage-cache.bin/fs.json
+volumes/minio/.minio.sys/buckets/.minio.sys/buckets/.usage.json/fs.json
+volumes/minio/.minio.sys/buckets/.minio.sys/buckets/a-bucket/.usage-cache.bin/fs.json
+volumes/minio/.minio.sys/buckets/a-bucket/.metadata.bin
+volumes/minio/.minio.sys/buckets/a-bucket/.usage-cache.bin
+volumes/minio/.minio.sys/config/config.json
+volumes/minio/.minio.sys/config/iam/format.json
+app/src/dataTable.csv
